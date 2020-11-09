@@ -1,0 +1,69 @@
+div.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  background-color: --theme-color;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+div.header-container .logo {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+div.header-container .logo .logo-content {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+
+div.header-container .logo .logo-content h1 {
+  margin-left: 10px;
+  font-weight: 900;
+  color: var(--theme-color-secondary);
+}
+
+div.header-container .title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div.header-container .title h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: var(--theme-color-secondary);
+}
+
+div.header-container .title .border {
+  border-bottom: 2px solid var(--theme-color-secondary);
+  width: 60%;
+  opacity: 40%;
+}
+
+div.header-container .github {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+div.header-container .github:hover {
+  opacity: 90%;
+}
+
+div.header-container .logo-content:hover {
+  opacity: 90%;
+}
+
+div.header-container img {
+  width: 83px;
+  height: 83px;
+}

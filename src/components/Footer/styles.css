@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 140px;
+  padding-bottom: 20px;
+}
+
+.footer-container .footer-title {
+  color: var(--theme-color-secondary);
+  font-weight: bold;
+  font-size: 20px;
+}

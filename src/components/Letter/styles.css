@@ -1,0 +1,103 @@
+.Letter {
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  font-size: 20px;
+  color: var(--theme-color-secondary);
+  font-family: 'Nunito', 'sans-serif';
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 50%;
+}
+
+.Letter:hover {
+  background-color: #e6e6e6;
+}
+
+.Letter-highlight {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+  z-index: -2;
+  background-color: #FFD666;
+  content: '';
+  border-radius: 30px;
+}
+
+.Letter-highlight:hover {
+  background-color: #FFF;
+}
+
+.Letter-highlight--joinN,
+.Letter-highlight--joinNE,
+.Letter-highlight--joinNW,
+.Letter-highlight--joinE,
+.Letter-highlight--joinS,
+.Letter-highlight--joinSE,
+.Letter-highlight--joinSW,
+.Letter-highlight--joinW {
+  z-index: -2;
+  border-radius: 0;
+}
+
+.Letter-highlight--joinN {
+  top: auto;
+  bottom: 50%;
+  height: 100%;
+}
+
+.Letter-highlight--joinNE {
+  left: auto;
+  right: 50%;
+  width: 140%;
+  transform: rotate(45deg);
+  transform-origin: right center;
+}
+
+.Letter-highlight--joinNW {
+  left: 50%;
+  right: auto;
+  width: 140%;
+  transform: rotate(-45deg);
+  transform-origin: left center;
+}
+
+.Letter-highlight--joinE {
+  left: auto;
+  right: 50%;
+  width: 100%;
+}
+
+.Letter-highlight--joinS {
+  top: 50%;
+  bottom: auto;
+  height: 100%;
+}
+
+.Letter-highlight--joinSE {
+  left: auto;
+  right: 50%;
+  width: 140%;
+  transform: rotate(-45deg);
+  transform-origin: right center;
+}
+
+.Letter-highlight--joinSW {
+  left: 50%;
+  right: auto;
+  width: 140%;
+  transform: rotate(45deg);
+  transform-origin: left center;
+}
+
+.Letter-highlight--joinW {
+  left: 50%;
+  right: auto;
+  width: 100%;
+}

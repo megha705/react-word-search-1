@@ -1,0 +1,52 @@
+.Word {
+  display: flex;
+  padding: 0.125em 0.25em;
+  align-items: center;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.Word:hover {
+  background-color: hsla(0, 0%, 0%, 0.04);
+}
+
+.Word-removeBtn {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin-left: auto;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.Word:hover .Word-removeBtn {
+  opacity: 1;
+}
+
+.Word-removeBtn:hover {
+  color: var(--theme-color);
+}
+
+.Word-removeBtn::before,
+.Word-removeBtn::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 2px;
+  background-color: hsl(0, 0%, 40%);
+  background-color: currentColor;
+  border-radius: 2px;
+  content: '';
+}
+
+.Word-removeBtn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.Word-removeBtn::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}

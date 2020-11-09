@@ -1,0 +1,30 @@
+.TextInput {
+  height: 30px;
+  padding: 0 4px;
+  background-color: hsla(0, 0%, 0%, 0.04);
+  border: 0;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.3);
+  color: hsl(0, 0%, 20%);
+  font-size: 14px;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+
+.TextInput:hover,
+.TextInput:focus {
+  background-color: hsla(0, 0%, 0%, 0.07);
+}
+
+.TextInput:hover {
+  border-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.TextInput:focus {
+  border-color: var(--theme-color);
+  outline: 0;
+}
+
+.TextInput::placeholder {
+  color: hsl(0, 0%, 42%);
+  font-style: italic;
+}
