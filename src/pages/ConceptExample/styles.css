@@ -21,8 +21,8 @@
 .container .container-text {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   height: 400px;
   overflow: scroll;
   margin-bottom: 100px;
@@ -33,13 +33,39 @@
   justify-content: center;
 }
 
-.container .container-text p {
+.container .container-text .item-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 40%;
+  width: 40%;
+}
+
+.container .container-text h2 {
+  color: var(--theme-color-secondary);
   display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 50px;
   max-width: 40%;
   width: 40%;
+}
+
+.container .container-text .code {
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 26%;
+  display: flex;  
+  flex-direction: column;
+  background-color: var(--theme-color-secondary);
+  color: #FFF;
+  border-radius: 10px;
+}
+
+.container .container-text .code .code-text {
+  color: #FFF;
 }
 
 .container h1, p {

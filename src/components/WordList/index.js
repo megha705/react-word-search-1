@@ -35,15 +35,6 @@ export default function WordList(props) {
       <ul className="WordList-list">
         {words} 
       </ul>
-      {/* {props.editable &&
-        <TextInput
-          value={newWord}
-          placeholder="Add word"
-          className="WordList-addWord"
-          onChange={handleNewWordChange}
-          onEnterPressed={handleSubmit}
-        />
-      } */}
     </div>
   )
 }

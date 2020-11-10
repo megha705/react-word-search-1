@@ -81,12 +81,6 @@ export default function WordSeach(props) {
               onWordRemoved={handleWordRemoved}
               editable
             />
-            {!!excludedWords.length &&
-              <WordList
-                title="Excluded"
-                words={excludedWords}
-              />
-            }
           </div>
           <div className="Editor-showSolution-container" onClick={toggleSolution}>
             {showSolution? <p>Esconder</p> : <p>Mostrar</p>}
