@@ -9,7 +9,7 @@ export default function ConceptExample(props) {
   const { concept } = props.location.state;
 
   return (
-    <div className="container">
+    <div className="concept-container">
       <Header title={concept.title} />
       <div className="container-body">
         <div className="container-text">

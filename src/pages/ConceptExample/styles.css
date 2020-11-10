@@ -1,4 +1,4 @@
-.container {
+.concept-container {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 
-.container .container-text {
+.concept-container .container-text {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -28,12 +28,12 @@
   margin-bottom: 100px;
 }
 
-.container .container-button {
+.concept-container .container-button {
   display: flex;
   justify-content: center;
 }
 
-.container .container-text .item-text {
+.concept-container .container-text .item-text {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -42,7 +42,7 @@
   width: 40%;
 }
 
-.container .container-text h2 {
+.concept-container .container-text h2 {
   color: var(--theme-color-secondary);
   display: flex;
   text-align: center;
@@ -52,7 +52,7 @@
   width: 40%;
 }
 
-.container .container-text .code {
+.concept-container .container-text .code {
   padding: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -64,10 +64,10 @@
   border-radius: 10px;
 }
 
-.container .container-text .code .code-text {
+.concept-container .container-text .code .code-text {
   color: #FFF;
 }
 
-.container h1, p {
+.concept-container h1, p {
   color: var(--theme-color-secondary);
 }

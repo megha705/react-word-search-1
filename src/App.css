@@ -14,7 +14,3 @@
   --shadow-short: 0 2px 4px rgba(0, 0, 0, 0.2);
   --shadow-tall: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-html {
-  background-color: var(--theme-color);
-}
