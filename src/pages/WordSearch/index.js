@@ -100,20 +100,6 @@ export default function WordSeach(props) {
         </div>
         <div className="Editor-panel-right">
           <div className="Editor-wordlist">
-            {/* <WordList
-              title="Encontradas"
-              words={words}
-              emptyMessage="No words yet&mdash;add some!"
-              onWordAdded={handleWordAdded}
-              onWordRemoved={handleWordRemoved}
-              editable
-            />
-            {!!excludedWords.length &&
-              <WordList
-                title="Excluded"
-                words={excludedWords}
-              />
-            } */}
           </div>
           <div className="exit-button">
             <MainButton isExit={true} />
