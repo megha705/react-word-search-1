@@ -1,6 +1,7 @@
 {
   "name": "word-search",
   "version": "0.1.0",
+  "license": "MIT",
   "engines": {
     "node": "12.16.3"
   },
