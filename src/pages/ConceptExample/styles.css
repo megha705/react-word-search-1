@@ -71,3 +71,18 @@
 .concept-container h1, p {
   color: var(--theme-color-secondary);
 }
+
+@media only screen and (max-width: 600px) {
+  .concept-container .container-text {
+    margin-top: 50px;
+    height: 50vh;
+    margin-bottom: 50px;
+  }
+  .concept-container .container-text .item-text {
+    max-width: 80vw;
+    width: 80vw;
+  }
+  .concept-container .container-text .code {
+    width: 80vw;
+  }
+}

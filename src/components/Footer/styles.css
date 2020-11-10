@@ -11,3 +11,12 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer-container .footer-title {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: 1vh;
+    font-size: 10px;
+  }
+}

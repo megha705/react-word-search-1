@@ -50,3 +50,14 @@ div.main-button .main-button-item .button-arrow {
   border-radius: 10px;
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 600px) {
+  div.main-button {
+    height: 50px;
+    width: 250px;
+    text-decoration: none;
+  }
+  div.main-button .main-button-item p {
+    font-size: 16px;
+  }
+}
